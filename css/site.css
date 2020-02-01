@@ -1,0 +1,95 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wallpaper{
+	background-image: url('../img/Narutoesasuke.jpg')
+}
+			
+.corpo{
+	width: 800px;
+	margin: 0 auto;
+	font-family: 'njnaruto';
+}
+			
+.cabecalho{
+	background-color: orange;
+	box-sizing: border-box;
+	height:256px;
+}
+			
+.cabecalho .tobi{
+	width: 197px;
+	height: 257px;
+				
+}
+@font-face{
+	font-family: 'njnaruto';
+	src: url('../font/njnaruto.ttf') format('truetype');
+}
+			
+p{
+	font-family: 'njnaruto';
+	color: rgb(223, 77, 9);
+	font-size: 100px;
+	float:right;
+	margin-right:90px;
+	margin-top:76px;
+	cursor: pointer;
+}
+			
+li{
+	list-style: none;
+	background-color: orange;
+	padding: 15px;
+	margin-bottom: -4px;
+    margin-top: 6px;
+	text-transform: uppercase;
+	text-align: center;
+}
+			
+a {
+	text-decoration: none;
+	color: rgb(223, 77, 9);
+}
+			
+a:hover{
+	color: white;
+}
+			
+.menu{
+	width: 199px;
+	float:left;
+	margin-top: -3px;
+}
+			
+.conteudo{
+	position: relative;
+	border: solid 1px black;
+	float: right;
+	width: 600px;
+	height:auto;
+	margin-top: 3px;
+	background-color: orange;
+	cursor: pointer;
+	margin-bottom: 2px;
+}
+			
+.hq{
+	width: 196px;
+	height: 245px;
+}
+			
+.hq:hover{
+	transform: scale(1.1);
+}
+			
+.rodape {
+	clear: both;
+	background-color: orange;
+	padding: 7px;
+	text-align: center;
+}
+			
